@@ -17,7 +17,7 @@ import static org.hamcrest.CoreMatchers.is;
  */
 @ExtendWith(SpringExtension.class)
 @SpringBootTest(
-        value = "value=test",
+//        value = "value=test",
         properties = {"property.value=propertyTest"},
         classes = {SpringBootTestApplicationTests.class},
         webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT
